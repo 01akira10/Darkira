@@ -12,6 +12,11 @@ h2{
   padding-bottom: 20px;
 }
 
+.texter{
+  text-align: center;
+  font-family: 'Charm';font-size: 26px;
+}
+
 .det{
   width: 25%;
 }
