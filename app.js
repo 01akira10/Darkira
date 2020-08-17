@@ -1,12 +1,7 @@
 var height= document.body.clientHeight;
 var width= document.body.clientWidth;
 
-if (width<= 700){
-  document.getElementsByClassName("experience")[0].classList.add("padding-decreaser");
-  console.log(width);
-}
-
-if (width<= 300){
+if (width<= 780){
   document.getElementsByClassName("experience")[0].classList.add("padding-decreaser-ex");
   document.getElementsByClassName("experience")[1].classList.add("padding-decreaser-ex");
   document.getElementsByClassName("experience")[2].classList.add("padding-decreaser-ex");
