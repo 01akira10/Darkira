@@ -1,7 +1,7 @@
 var height= document.body.clientHeight;
 var width= document.body.clientWidth;
 
-if (screen.width<= 780){
+if (screen.width<= 780 || width<= 850){
   document.getElementsByClassName("experience")[0].classList.add("padding-decreaser-ex");
   document.getElementsByClassName("experience")[1].classList.add("padding-decreaser-ex");
   document.getElementsByClassName("experience")[2].classList.add("padding-decreaser-ex");
